@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=AssignmentTest
+comment0.text=\r\n\ The\ test\ class\ AssignmentTest.\r\n\r\n\ @author\ \ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=AssignmentTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ AssignmentTest.\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ testConstructor()
+comment4.text=\r\n\ A\ sample\ test\ case.\r\n\r\n\ Process\:\r\n\ \ 1.\ Create\ an\ object\ to\ test\r\n\ \ 2.\ Assert\ something\ about\ the\ initial\ object\ state\r\n\ \ 3.\ Call\ a\ method\r\n\ \ 4.\ Assert\ something\ about\ the\ return\ value\r\n\ \ \ \ \ or\ the\ state\ of\ the\ object\ after\ the\ call\r\n
+numComments=5

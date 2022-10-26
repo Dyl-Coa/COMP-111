@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=RateUtility
+comment0.text=\r\n\ A\ utility\ class\ to\ help\ calculate\ demographic\ impact\ on\ rates.\r\n\r\n\ @author\ Doyt\ Perry/<Dylan\ Coakley>\r\n\ @version\ Fall\ '22\r\n
+comment1.params=inAge
+comment1.target=double\ calcAgeAdj(int)
+comment1.text=\r\n\ Calculate\ age-related\ rate\ adjustment.\r\n\r\n\ @param\ \ inAge\ \ \ \ \ \ \ \ age\ of\ candidate.\r\n\ @return\ double\ \ \ \ \ \ \ monthly\ premium\ adjustment\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (return\ INVALID\ if\ bad\ input).\r\n
+comment2.params=inSmoker
+comment2.target=double\ calcSmokerAdj(boolean)
+comment2.text=\r\n\ Calculate\ smoker-related\ rate\ adjustment.\r\n\r\n\ @param\ inSmoker\ \ \ \ \ \ whether\ or\ not\ candidate\ is\ a\ smoker.\r\n\ @return\ double\ \ \ \ \ \ \ monthly\ premium\ adjustment.\r\n\r\n
+comment3.params=inGender
+comment3.target=double\ calcGenderAdj(char)
+comment3.text=\r\n\ Calculate\ gender-related\ rate\ adjustment.\r\n\r\n\ @param\ \ \ inGender\ \ \ \ gender\ (M/F)\ of\ candidate.\r\n\ @return\ \ double\ \ \ \ \ \ monthly\ premium\ adjustment\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (return\ INVALID\ if\ bad\ input).\r\n\r\n
+comment4.params=inHighRisk
+comment4.target=double\ calcRiskAdj(boolean)
+comment4.text=\r\n\ Calculate\ risk-related\ rate\ adjustment.\r\n\r\n\ @param\ inHighRisk\ \ \ \ \ \ \ \ whether\ or\ not\ candidate\ is\ high\ risk.\r\n\ @return\ double\ \ \ \ \ \ \ \ \ \ \ monthly\ premium\ adjustment.\r\n\r\n
+comment5.params=inNumTickets
+comment5.target=double\ calcTicketsAdj(int)
+comment5.text=\r\n\ Calculate\ tickets-related\ rate\ adjustment.\r\n\r\n\ @param\ \ \ inNumTickets\ \ \ \ number\ of\ traffic\ tickets\ for\ candidate.\r\n\ @return\ \ double\ \ \ \ \ \ \ \ \ \ monthly\ premium\ adjustment\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (return\ INVALID\ if\ bad\ input).\r\n\r\n
+comment6.params=inHealth
+comment6.target=double\ calcHealthAdj(java.lang.String)
+comment6.text=\r\n\ Calculate\ health-related\ rate\ adjustment.\r\n\r\n\ @param\ \ \ inHealth\ \ \ \ \ \ \ \ candidate\ health\ status\ (Good,\ Fair,\ Poor).\r\n\ @return\ \ double\ \ \ \ \ \ \ \ \ \ monthly\ premium\ adjustment\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (return\ INVALID\ if\ bad\ input).\r\n\r\n
+comment7.params=inAge\ inSmoker\ inHighRisk\ inNumTickets\ inHealth
+comment7.target=double\ calcDemogAdj(int,\ boolean,\ boolean,\ int,\ java.lang.String)
+comment7.text=\r\n\ Calculate\ demographics-related\ rate\ adjustment.\r\n\r\n\ @param\ \ \ inSmoker\ \ \ \ \ \ \ \ whether\ or\ not\ candidate\ is\ a\ smoker.\r\n\ @param\ \ \ inAge\ \ \ \ \ \ \ \ \ \ \ age\ of\ candidate.\r\n\ @param\ \ \ inHighRisk\ \ \ \ \ \ whether\ or\ not\ candidate\ is\ high\ risk.\r\n\ @param\ \ \ inNumTickets\ \ \ \ number\ of\ traffic\ tickets\ for\ candidate.\r\n\ @param\ \ \ inHealth\ \ \ \ \ \ \ \ candidate\ health\ status\ (Good,\ Fair,\ Poor).\r\n\ @return\ \ double\ \ \ \ \ \ \ \ \ \ monthly\ premium\ adjustment.\r\n\r\n
+numComments=8

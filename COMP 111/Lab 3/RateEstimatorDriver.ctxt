@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=RateEstimatorDriver
+comment0.text=\r\n\ Driver\ to\ demonstrate\ RateEstimator\ class.\r\n\r\n\ @author\ Tina\ Comston/<Dylan\ Coakley>\r\n\ @version\ Fall\ '22\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Creates\ RateEstimator\ object,\ displays\ values.\r\n@param\ args\ \ Main\ \r\n
+numComments=2
